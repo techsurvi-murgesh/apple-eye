@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ishwar Kalmegh Resume</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+@page{size:A4;margin:8mm 10mm}
+body{font-family:Arial,Helvetica,sans-serif;background:#eee;color:#111}
+.resume{width:210mm;min-height:auto;margin:20px auto;background:#fff;padding:18px 28px}
+.header{text-align:center;border-bottom:2px solid #333;padding-bottom:4px;margin-bottom:6px}
+.header h1{font-size:27px}
+.contact{margin-top:6px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap;font-size:12px}
+.contact a{color:#111;text-decoration:none}
+.section{margin-top:7px}
+.section h2{font-size:15px;text-transform:uppercase;border-bottom:1px solid #bbb;padding-bottom:2px;margin-bottom:5px;color:#111}
+.summary{font-size:12.1px;line-height:1.3;text-align:justify}
+.skills{display:grid;grid-template-columns:128px auto;gap:2px;font-size:12.1px}
+.job{margin-bottom:8px}
+.job-head{display:flex;justify-content:space-between}
+.company{font-weight:bold;font-size:14px}
+.date{font-size:12px;color:#444}
+.role{font-style:italic;font-size:12px;margin:2px 0 4px}
+ul{margin-left:16px}
+li{font-size:12.1px;margin-bottom:2px;line-height:1.25}
+.project{margin-bottom:7px}
+.project-title{font-weight:bold;font-size:13px}
+.project-title a{color:#111}
+.tech{font-size:11.5px;color:#444;margin:2px 0 3px}
+@media print{
+body{background:#fff}
+.resume{margin:0;width:100%;padding:0;box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div class="resume">
+<div class="header">
+<h1>Ishwar Kalmegh</h1>
+<div class="contact">
+<span>+91-7218087576</span>
+<a href="mailto:ishwarkalmegh156@gmail.com">ishwarkalmegh156@gmail.com</a>
+<a href="https://github.com/i5hwar-ka1m39h">GitHub</a>
+<a href="https://www.linkedin.com/in/ishwar-kalmegh-161004294/">LinkedIn</a>
+</div>
+</div>
+
+<div class="section">
+<h2>Professional Summary</h2>
+<p class="summary">
+Backend Engineer with 3+ years building and operating high-scale production systems end to end, owning outcomes from design through production. Hands-on in <strong>Go</strong> and <strong>Node.js</strong>/<strong>TypeScript</strong>: high-throughput event-driven services on <strong>Kafka</strong>/<strong>Redpanda</strong> (partitioning, consumer groups, ordering, idempotency, replay, backpressure), resilient <strong>APIs</strong> and <strong>webhook</strong> integrations that tolerate duplicate and out-of-order delivery, and reliable background workers with queues, scheduling and failure recovery. Data models across <strong>ClickHouse</strong>, <strong>MongoDB</strong>, <strong>PostgreSQL</strong>/<strong>RDS</strong> and <strong>Redis</strong> on <strong>AWS</strong>. <strong>AI-native</strong> in practice &mdash; shipping <strong>LLM</strong> features with structured outputs, tool calling, <strong>RAG</strong> and offline <strong>evaluation</strong>, and using <strong>AI-assisted engineering</strong> for code, tests and debugging, verifying every result independently.</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<div class="skills">
+<strong>Languages</strong><div>Go, TypeScript, JavaScript, Python, SQL, Bash</div>
+<strong>Backend</strong><div>Node.js, Express, NestJS, Fastify, tRPC, REST &amp; GraphQL APIs, webhooks</div>
+<strong>Streaming</strong><div>Apache Kafka, Redpanda, partitioning, consumer groups, ordering, idempotency, replay, backpressure</div>
+<strong>Data Stores</strong><div>ClickHouse, MongoDB, PostgreSQL/Amazon RDS, Redis, Elasticsearch, Prisma</div>
+<strong>Jobs &amp; Queues</strong><div>BullMQ/Bull-style queues, schedulers, workers, rate limiting, DLQ, failure recovery</div>
+<strong>Cloud</strong><div>AWS (EC2, S3, RDS, Lambda, SQS, ECR, CloudFront), VPC, IAM</div>
+<strong>AI / LLM</strong><div>GenAI, RAG, agent workflows, tool/function calling, structured outputs, MCP, eval harnesses</div>
+<strong>Observability</strong><div>OpenTelemetry, distributed tracing, Prometheus, Grafana, Loki, metrics/logs/traces, incident RCA</div>
+<strong>Platform</strong><div>Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, microservices, concurrency, fault tolerance</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Work Experience</h2>
+
+<div class="job">
+<div class="job-head"><div class="company">Techsurvi Pvt. Ltd.</div><div class="date">Nov 2025 – Present</div></div>
+<div class="role">Backend &amp; DevOps Engineer</div>
+<ul>
+<li>Designed and built high-throughput backend services in <strong>Node.js</strong>/<strong>TypeScript</strong> (<strong>Express</strong>, <strong>GraphQL</strong>) and <strong>Go</strong> on <strong>AWS</strong> (<strong>EC2</strong>, <strong>RDS</strong>, <strong>S3</strong>, <strong>ECR</strong>, <strong>Lambda</strong>), with average API latency of <strong>150 ms</strong>.</li>
+<li>Built <strong>Kafka</strong> event pipelines with partition-keyed ordering, consumer groups, idempotent processing, retry/backoff, dead-letter replay and backpressure control.</li>
+<li>Owned data modelling and workload performance across <strong>MongoDB</strong>, <strong>PostgreSQL</strong>/<strong>RDS</strong>, <strong>Redis</strong> and <strong>ClickHouse</strong>, and shipped releases via automated <strong>CI/CD</strong> (<strong>Docker</strong>, <strong>GitHub Actions</strong>).</li>
+<li>Operated production with centralised metrics, logs and traces (<strong>Prometheus</strong>, <strong>Grafana</strong>, <strong>Loki</strong>), and built a concurrent <strong>Go</strong> load-testing service (<strong>Goroutines</strong>, <strong>Mutexes</strong>) that improved availability by <strong>60%</strong>.</li>
+      <li>Created event-driven architecture for a client using <strong>AWS</strong> (<strong>Lambda</strong>, <strong>SQS</strong>, <strong>API Gateway</strong>), handling 10K+ requests/day and reducing latency by <strong>40%</strong>.</li>
+      <li>Created <strong>AWS</strong> billing alerts that kept monthly cloud spend within the <strong>$5K</strong> limit, preventing budget overruns.</li>
+      <li>Migrated the <strong>MySQL RDS</strong> database from version <strong>8.0</strong> to <strong>8.4</strong> with zero downtime, improving query performance by <strong>25%</strong>.</li>
+      <li>Created a <strong>GDPR</strong>-compliant webhook system using <strong>SQS</strong>, <strong>Lambda</strong>, and <strong>EventBridge</strong>, processing 5K webhooks/day with dead-letter handling and replay strategy.</li>
+    </ul>
+</div>
+
+<div class="job">
+<div class="job-head"><div class="company">Skyfunnel.ai</div><div class="date">Dec 2024 – Oct 2025</div></div>
+<div class="role">Software Development Engineer</div>
+<ul>
+<li>Built production messaging and automation services with <strong>Node.js</strong>/<strong>tRPC</strong> and <strong>PostgreSQL</strong>, using queue-backed delivery, scheduling and backoff retries.</li>
+<li>Shipped an <strong>LLM</strong>-powered real-time voice agent with streaming conversations, structured tool calls and streaming state handling.</li>
+<li>Diagnosed production incidents across the distributed stack &mdash; 100+ resolved, resolution time down <strong>40%</strong> via systematic debugging and root-cause analysis.</li>
+<li>Built a concurrent <strong>Go</strong> high-volume validation service reducing backend load by <strong>30%</strong>.</li>
+      <li>Created a Zapier-like event automation feature that triggers <strong>200+</strong> emails per event, reducing manual notification effort by <strong>60%</strong>.</li>
+    </ul>
+</div>
+
+<div class="job">
+<div class="job-head"><div class="company">Bizonance India Pvt. Ltd.</div><div class="date">Jan 2024 – Dec 2024</div></div>
+<div class="role">Full Stack Developer</div>
+<ul>
+<li>Developed scalable applications with <strong>React</strong>, <strong>Node.js</strong>, and <strong>PostgreSQL</strong>.</li>
+<li>Integrated the <strong>PhonePe API</strong> with secure transaction handling.</li>
+<li>Built an <strong>Electron</strong> app for synchronized <strong>MongoDB</strong> and <strong>PostgreSQL</strong> data management.</li>
+      <li>Migrated the complete server from Windows to the Linux (Hostinger) hosting platform, cutting hosting costs by <strong>30%</strong> and improving uptime to <strong>99.9%</strong>.</li>
+    </ul>
+</div>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+
+<div class="project">
+<div class="project-title">RSS Post Scraper in Go |
+<a href="https://github.com/i5hwar-ka1m39h/go_scrapper">GitHub</a></div>
+<div class="tech"><strong>Go</strong> • <strong>Chi</strong> • <strong>PostgreSQL</strong> • <strong>Goose</strong> • <strong>sqlc</strong></div>
+<ul><li>Built an RSS feed scraper with database migrations and type-safe SQL generation.</li></ul>
+</div>
+
+<div class="project">
+<div class="project-title">Voice-Based AI Chat Application |
+<a href="https://github.com/i5hwar-ka1m39h/vapi_based_saas">GitHub</a></div>
+<div class="tech"><strong>Next.js</strong> • <strong>Supabase</strong> • <strong>PostgreSQL</strong> • <strong>Vapi</strong></div>
+<ul><li>Developed a real-time AI voice assistant with streaming conversations and secure authentication.</li></ul>
+</div>
+
+<div class="project">
+<div class="project-title">Rulers of the Sky (Go + Ebiten) |
+<a href="https://github.com/i5hwar-ka1m39h/games">GitHub</a> |
+<a href="https://rulersofsky.vercel.app/">Live Demo</a></div>
+<div class="tech"><strong>Go</strong> • <strong>Ebiten</strong> • <strong>Game Development</strong></div>
+<ul><li>Developed a retro-style 2D aerial combat game featuring sprite animation, scrolling backgrounds, enemy AI, projectiles, and collision detection using <strong>Go</strong> and <strong>Ebiten</strong>.</li></ul>
+</div>
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+DevOps Engineer with 3+ years experience building CI/CD pipelines, Kubernetes on AWS, and Terraform automation. Have worked with infrastructure processing $2B+ GMV for 15,000+ merchants. Excited to bring reliability and observability expertise to GoKwik's DevOps team.

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ishwar Kalmegh Resume</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:#eee;color:#111}
+.resume{width:210mm;min-height:297mm;margin:20px auto;background:#fff;padding:28px 34px}
+.header{text-align:center;border-bottom:2px solid #333;padding-bottom:12px;margin-bottom:18px}
+.header h1{font-size:32px}
+.contact{margin-top:8px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap;font-size:13px}
+.contact a{color:#111;text-decoration:none}
+.section{margin-top:16px}
+.section h2{font-size:17px;text-transform:uppercase;border-bottom:1px solid #bbb;padding-bottom:3px;margin-bottom:8px;color:#111}
+.summary{font-size:13px;line-height:1.45;text-align:justify}
+.skills{display:grid;grid-template-columns:170px auto;gap:7px;font-size:13px}
+.job{margin-bottom:14px}
+.job-head{display:flex;justify-content:space-between}
+.company{font-weight:bold;font-size:15px}
+.date{font-size:13px;color:#444}
+.role{font-style:italic;font-size:13px;margin:3px 0 6px}
+ul{margin-left:18px}
+li{font-size:13px;margin-bottom:4px;line-height:1.35}
+.project{margin-bottom:12px}
+.project-title{font-weight:bold;font-size:14px}
+.project-title a{color:#111}
+.tech{font-size:12px;color:#444;margin:3px 0 4px}
+@page{size:A4;margin:6mm 8mm}
+@media print{
+ body{background:#fff}
+ .resume{margin:0;width:100%;min-height:0;padding:0}
+ .header{padding-bottom:9px;margin-bottom:12px}
+ .header h1{font-size:28px}
+ .contact{margin-top:5px;font-size:12px;gap:10px}
+ .section{margin-top:11px}
+ .section h2{font-size:14.5px;margin-bottom:6px;padding-bottom:2px}
+ .summary{font-size:11.5px;line-height:1.32}
+ .skills{grid-template-columns:148px auto;gap:4px 10px;font-size:11.5px}
+ .job{margin-bottom:10px}
+ .company{font-size:13.5px}
+ .date{font-size:12px}
+ .role{font-size:12px;margin:2px 0 5px}
+ ul{margin-left:16px}
+ li{font-size:11.5px;margin-bottom:3px;line-height:1.26}
+ .project{margin-bottom:8px}
+ .project-title{font-size:13px}
+ .tech{font-size:11.5px;margin:2px 0 4px}
+}
+</style>
+</head>
+<body>
+<div class="resume">
+<div class="header">
+<h1>Ishwar Kalmegh</h1>
+<div class="contact">
+<span>+91-7218087576</span>
+<a href="mailto:ishwarkalmegh156@gmail.com">ishwarkalmegh156@gmail.com</a>
+<a href="https://github.com/i5hwar-ka1m39h">GitHub</a>
+<a href="https://www.linkedin.com/in/ishwar-kalmegh-161004294/">LinkedIn</a>
+</div>
+</div>
+
+<div class="section">
+<h2>Professional Summary</h2>
+<p class="summary">
+Golang Engineer with 3+ years of experience building, debugging and shipping production systems in <strong>Go</strong> on <strong>Linux</strong>. Hands-on with <strong>Go modules</strong>, <strong>semantic versioning</strong>, <strong>dependency management</strong>, <strong>go build</strong> and <strong>go test</strong> — upgrading third-party libraries, resolving dependency conflicts and version compatibility issues, fixing breaking API changes across downstream call sites, and troubleshooting compilation, linker and test failures. Experienced with <strong>Git</strong> change management, merge conflicts and code review, <strong>Bash</strong> automation, and <strong>CI/CD</strong> presubmit pipelines gating every merge.
+</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<div class="skills">
+<strong>Languages</strong><div>Go, Python, Bash, TypeScript, JavaScript, SQL</div>
+<strong>Go</strong><div>Go modules (go.mod, go.sum, MVS, semantic versioning), go build, go test, goroutines, channels, sync primitives, stdlib, benchmarks, pprof profiling, race detector</div>
+<strong>Dependencies &amp; Upgrades</strong><div>Dependency-tree analysis, OSS package upgrades, transitive dependency resolution, version conflict resolution, replace/exclude directives, breaking API changes, API migration, vulnerability remediation</div>
+<strong>Debugging</strong><div>Build and compile failures, linker errors, flaky tests, race conditions, goroutine and memory leaks, stack traces, pprof, root-cause analysis</div>
+<strong>Linux &amp; Scripting</strong><div>Ubuntu, Debian, Bash/shell scripting, make, process and file-system management, TCP/IP networking, build automation</div>
+<strong>Git &amp; Workflow</strong><div>Git, branching, rebasing, merge-conflict resolution, patch management, code review, large-codebase change scoping, migration documentation</div>
+<strong>CI/CD</strong><div>GitHub Actions, presubmit checks, build and test gating, Docker, Docker Swarm, Kubernetes</div>
+<strong>Backend &amp; Cloud</strong><div>REST APIs, Node.js, Express.js, tRPC, GraphQL, PostgreSQL, MongoDB, AWS (EC2, Lambda, RDS, ECR, S3)</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Work Experience</h2>
+
+<div class="job">
+<div class="job-head"><div class="company">Techsurvi Pvt. Ltd.</div><div class="date">Nov 2025 – Present</div></div>
+<div class="role">Backend &amp; DevOps Engineer</div>
+<ul>
+<li>Built automated <strong>CI/CD</strong> pipelines with <strong>Docker</strong>, <strong>Docker Swarm</strong> and <strong>GitHub Actions</strong>, where build, test and presubmit stages gate every merge and keep integration failures isolated and fast.</li>
+<li>Upgraded third-party libraries and dependencies across services, resolving version conflicts and updating call sites for breaking API changes while keeping downstream services on stable, tested releases.</li>
+<li>Developed a concurrent <strong>Go</strong> stress-testing application using <strong>Goroutines</strong>, <strong>Mutexes</strong> and <strong>WaitGroups</strong>, improving availability by <strong>60%</strong>, and profiled it with <strong>pprof</strong> to eliminate goroutine and memory leaks.</li>
+<li>Designed and developed the backend architecture of a <strong>Node.js</strong> (<strong>Express</strong>, <strong>GraphQL</strong>) application with average API latency of <strong>150 ms</strong> on <strong>AWS</strong> (<strong>EC2</strong>, <strong>Lambda</strong>, <strong>RDS</strong>, <strong>ECR</strong>, <strong>CloudFront</strong>, <strong>S3</strong>).</li>
+      <li>Created event-driven architecture for a client using <strong>AWS</strong> (<strong>Lambda</strong>, <strong>SQS</strong>, <strong>API Gateway</strong>), handling 10K+ requests/day and reducing latency by <strong>40%</strong>.</li>
+      <li>Created <strong>AWS</strong> billing alerts that kept monthly cloud spend within the <strong>$5K</strong> limit, preventing budget overruns.</li>
+      <li>Migrated the <strong>MySQL RDS</strong> database from version <strong>8.0</strong> to <strong>8.4</strong> with zero downtime, improving query performance by <strong>25%</strong>.</li>
+      <li>Created a <strong>GDPR</strong>-compliant webhook system using <strong>SQS</strong>, <strong>Lambda</strong>, and <strong>EventBridge</strong>, processing 5K webhooks/day with dead-letter handling and replay strategy.</li>
+    </ul>
+</div>
+
+<div class="job">
+<div class="job-head"><div class="company">Skyfunnel.ai</div><div class="date">Dec 2024 – Oct 2025</div></div>
+<div class="role">Software Development Engineer</div>
+<ul>
+<li>Debugged compile, build and test failures across Go and Node.js services — stack traces, failing dependencies, race conditions — resolving <strong>100+</strong> production issues and cutting bug resolution time by <strong>40%</strong>.</li>
+<li>Built a concurrent <strong>Go</strong> email validation service using goroutines and worker pools, reducing backend load by <strong>30%</strong>.</li>
+<li>Developed production backend services and <strong>REST</strong> APIs using <strong>tRPC</strong> and <strong>PostgreSQL</strong>, covered by unit and integration tests.</li>
+<li>Enhanced <strong>WhatsApp</strong> and <strong>Email</strong> delivery using exponential backoff retry mechanisms for reliability under failure.</li>
+      <li>Created a Zapier-like event automation feature that triggers <strong>200+</strong> emails per event, reducing manual notification effort by <strong>60%</strong>.</li>
+    </ul>
+</div>
+
+<div class="job">
+<div class="job-head"><div class="company">Bizonance India Pvt. Ltd.</div><div class="date">Jan 2024 – Dec 2024</div></div>
+<div class="role">Full Stack Developer</div>
+<ul>
+<li>Migrated a large legacy codebase from an outdated frontend stack to <strong>React</strong> + <strong>Tailwind CSS</strong> — upgrading package versions, adapting code to breaking API changes and validating the migration across the whole app, improving performance by <strong>20%</strong>.</li>
+<li>Integrated the <strong>PhonePe API</strong> with secure transaction handling and input validation.</li>
+<li>Developed an <strong>Electron</strong> desktop application for synchronized <strong>MongoDB</strong> and <strong>PostgreSQL</strong> data management.</li>
+      <li>Migrated the complete server from Windows to the Linux (Hostinger) hosting platform, cutting hosting costs by <strong>30%</strong> and improving uptime to <strong>99.9%</strong>.</li>
+    </ul>
+</div>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+
+<div class="project">
+<div class="project-title">RSS Post Scraper in Go |
+<a href="https://github.com/i5hwar-ka1m39h/go_scrapper">GitHub</a></div>
+<div class="tech"><strong>Go</strong> • <strong>Chi</strong> • <strong>PostgreSQL</strong> • <strong>Goose</strong> • <strong>sqlc</strong></div>
+<ul><li>Built an RSS feed scraper with database migrations and type-safe SQL generation.</li></ul>
+</div>
+
+<div class="project">
+<div class="project-title">Voice-Based AI Chat Application |
+<a href="https://github.com/i5hwar-ka1m39h/vapi_based_saas">GitHub</a></div>
+<div class="tech"><strong>Next.js</strong> • <strong>Supabase</strong> • <strong>PostgreSQL</strong> • <strong>Vapi</strong></div>
+<ul><li>Developed a real-time AI voice assistant with streaming conversations and secure authentication.</li></ul>
+</div>
+
+<div class="project">
+<div class="project-title">Rulers of the Sky (Go + Ebiten) |
+<a href="https://github.com/i5hwar-ka1m39h/games">GitHub</a> |
+<a href="https://rulersofsky.vercel.app/">Live Demo</a></div>
+<div class="tech"><strong>Go</strong> • <strong>Ebiten</strong> • <strong>Game Development</strong></div>
+<ul><li>Developed a retro-style 2D aerial combat game featuring sprite animation, scrolling backgrounds, enemy AI, projectiles, and collision detection using <strong>Go</strong> and <strong>Ebiten</strong>.</li></ul>
+</div>
+
+</div>
+</div>
+</body>
+</html>
