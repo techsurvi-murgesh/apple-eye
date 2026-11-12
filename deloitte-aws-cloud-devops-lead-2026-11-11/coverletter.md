@@ -1,0 +1,14 @@
+Dear Deloitte Hiring Team,
+
+I am writing to express my strong interest in the AWS Cloud DevOps Lead position within Deloitte's Technology & Transformation practice. With 3+ years of experience building secure, scalable, and cost-efficient AWS platforms for mission-critical applications, I am eager to contribute to Deloitte's banking and financial services cloud engagements.
+
+My experience aligns closely with this role. I have hands-on expertise designing AWS architecture (VPC, IAM, S3, ELB, Route 53, KMS, multi-account), provisioning infrastructure with Terraform and CloudFormation, operating EKS/Kubernetes clusters with Helm and ECR, and building enterprise CI/CD pipelines (GitHub Actions, Jenkins, GitLab CI, CodePipeline/CodeBuild/CodeDeploy). I also bring DevSecOps (Secrets Manager, Parameter Store, KMS, CloudTrail, Config, GuardDuty, Security Hub), observability (CloudWatch, X-Ray, Prometheus, Grafana, OpenSearch), SRE/DR practices, and FinOps cost optimisation. I am aware of regulated/banking environments and RBI IT governance considerations.
+
+What attracts me to Deloitte is the opportunity to lead cloud architecture and platform engineering for mission-critical banking applications at scale, working across application, security, database and operations teams. I am confident my AWS, EKS, Terraform, CI/CD, DevSecOps and observability experience, combined with my focus on reliability, security and cost efficiency, makes me a strong fit for this role.
+
+I look forward to discussing how I can contribute to Deloitte's Technology & Transformation practice.
+
+Best regards,
+Ishwar Kalmegh
++91-7218087576
+ishwarkalmegh156@gmail.com

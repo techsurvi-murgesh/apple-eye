@@ -1,0 +1,1 @@
+DevOps Engineer with 3+ years of experience managing Amazon EKS, Kubernetes, Terraform, Argo CD, Helm, and AWS infrastructure at scale. I bring hands-on GitOps, CI/CD automation, observability, and cloud-native security for business-critical environments — ready to strengthen VOIS's GT Group Data Centres platform.

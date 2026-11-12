@@ -1,0 +1,1 @@
+AWS Cloud DevOps Engineer with 3+ years of experience building secure, scalable, cost-efficient AWS platforms (EKS, Terraform, CI/CD, DevSecOps, observability, FinOps) for mission-critical applications. Ready to help Deloitte deliver a resilient multi-account AWS platform for banking workloads.

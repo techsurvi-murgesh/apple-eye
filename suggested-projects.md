@@ -211,6 +211,85 @@ Secure eCommerce platform automation: Terraform modules provisioning multi-regio
 **Stack:** GitHub Actions, Docker, Kubernetes, Azure (AKS/App Service), Terraform/Bicep, Prometheus, Grafana, Azure Monitor  
 **Description:** Build a containerized Java/Spring Boot microservice with automated CI/CD (build/test/scan/deploy), deploy to AKS, add health probes, logging/metrics, alerts, runbooks, and IaC for infra. Include incident simulation and RCA documentation.
 
+## MBS Global DevOps Engineer — 2026-11-03
+
+Multi-cloud CI/CD and IaC platform: Terraform modules provisioning VPC/EKS/AKS/RDS across AWS, Azure, and GCP with least-privilege IAM and networking baselines (DNS, load balancers, SSL/TLS). Jenkins/GitHub Actions/GitLab CI/Azure DevOps pipelines build, test, Trivy-scan, and deploy Docker images to Kubernetes with Helm and rolling updates. Linux administration with Shell/Python/Bash automation, Git version control, and observability via Prometheus/Grafana/ELK/Datadog/CloudWatch with SLO dashboards and alerting. Includes DevSecOps scanning, secrets management, and incident runbooks—mirroring MBS Global's multi-cloud DevOps mandate for global clients.
+
 ## Persistent Golang Full Stack Developer — 2026-11-03
 
 Full-stack e-commerce catalog platform in Go and React: a Go REST API behind an API Gateway exposes product catalog, cart, and checkout endpoints, persisting to PostgreSQL with indexed queries and publishing order events to Kafka for idempotent consumers. React frontend with Tailwind CSS renders product listings, search, and a checkout flow with optimistic UI updates. Dockerized services deploy to Kubernetes (EKS) via GitHub Actions CI/CD with Trivy scanning, Helm charts, and rolling deploys; Prometheus/Grafana dashboards track SLOs and consumer lag. Mirrors Persistent's Golang + React full-stack mandate on AWS with microservices, CI/CD, and observability.
+
+## VOIS AWS Kubernetes DevOps Engineer — 2026-11-11
+
+Cloud-native EKS platform: Terraform modules provisioning VPC/EKS/RDS across AWS with least-privilege IAM, IRSA for pods, and network baselines. GitOps continuous delivery via Argo CD and Helm charts with automated testing and rolling updates; Docker images scanned and pushed to ECR via CodeBuild/CodeCommit pipelines. Observability with CloudWatch, Prometheus/Grafana/Loki, SLO dashboards, and cost guardrails; Kubernetes RBAC, network policies, and Secrets for ITIL/SOX-aligned security. Includes incident runbooks and Python/Bash toil elimination—mirroring VOIS's AWS Kubernetes DevOps mandate for business-critical telco environments.
+
+## Deloitte AWS Cloud DevOps Lead — 2026-11-11
+
+Secure multi-account AWS banking platform: Terraform/CloudFormation/CDK modules for landing zones, Organizations SCPs, VPC with Transit Gateway/VPC endpoints/NAT/VPN/Direct Connect, and HA/DR across AZs and Regions. Enterprise CI/CD (CodePipeline/CodeBuild/CodeDeploy, Jenkins, GitLab CI, GitHub Actions) with security scanning, blue-green/canary deploys, approval gates and release traceability for Java/Spring Boot microservices. EKS platform with node groups, autoscaling, ingress, ECR, Helm, IRSA/EKS Pod Identity and AWS Load Balancer Controller; developer self-service patterns. DevSecOps with least-privilege IAM, federated identity, MFA, Secrets Manager/Parameter Store/KMS, CloudTrail/Config/GuardDuty/Security Hub posture management, and RBI IT governance-aligned audit trails. Observability via CloudWatch, X-Ray, Prometheus, Grafana, OpenSearch with SLOs, incident response/RCA and DR exercises; FinOps through tagging, budgets, rightsizing, Savings Plans/Reserved Instances and storage lifecycle policies.
+
+## Wolters Kluwer DevOps Engineer — 2026-11-11
+
+Full-stack observability and CI/CD platform: Terraform modules provisioning VPC/EKS/RDS on AWS and Azure web apps/IIS/Service Fabric with least-privilege IAM and networking baselines. CI/CD pipelines (GitHub Actions, Jenkins, GitLab CI) build, test, scan, and deploy Docker images to Kubernetes with Helm and rolling updates. Full-stack monitoring with Prometheus/Grafana/Loki/CloudWatch across infra, cloud, OS, and app telemetry; SLO dashboards and alerting. Availability, change, release, and disaster recovery management with documented runbooks and DR drills; Python/Bash/PowerShell automation to eliminate toil; incident coordination and postmortems—mirroring Wolters Kluwer's DevOps/AppOps mandate for highly available, scalable web applications.
+
+## brand logo CloudOps Engineer — 2026-11-12
+
+Build infrastructure optimization platform: Terraform-provisioned AWS infrastructure with Jenkins and GitHub Actions CI/CD pipelines building Docker images to Kubernetes/EKS; shared pipeline libraries for build decomposition into modular component builds with caching and parallelization to cut build times. Observability with Prometheus/Grafana/OpenTelemetry SLI/SLO dashboards tracking build reliability and developer velocity; Linux system administration, Python/Bash automation and runbooks; on-call rotation covering US Eastern hours; cloud security baselines (least-privilege IAM, secrets management) for a public SaaS platform—mirroring brand logo's CloudOps Engineer build-engineering mandate.
+
+## Thales Backend Developer — 2026-11-12
+
+Scalable backend services platform: Go (Golang) and Python microservices exposing RESTful APIs, persisting to PostgreSQL with Redis caching, containerized with Docker and orchestrated on Kubernetes, deployed to AWS (ECS/EKS, RDS, S3, IAM). CI/CD pipelines (GitHub Actions/Jenkins) with automated testing, code quality gates, and rollback; Prometheus/Grafana observability and SLI/SLO dashboards; architectural decision docs and runbooks for performance and scalability—mirroring Thales' Backend Developer mandate for critical aerospace/defence/cyber backend systems.
+
+## Bluehost DevOps Engineer — 2026-11-12
+
+Platform reliability engineering: Kubernetes and cloud-native infrastructure across AWS/GCP/Azure/OCI (compute, storage, networking, IAM); Terraform IaC versioned in Git with team-wide best practices; CI/CD with Jenkins and Argo CD/Workflows automating build/test/release for dozens of services with progressive rollouts and rollback; Apache/Nginx hardening with SSL/TLS; observability with Prometheus/Grafana/ELK/Loki and actionable alerting; AI-augmented delivery with guardrails (AI-generated code review, provenance/licensing, secret/customer data boundaries); TCP/IP/DNS/iptables/nftables networking and load balancing; on-call rotation, incident response, and postmortems; Bash/Python scripting and Linux security (TLS, SSH hardening, patch management, IAM)—mirroring Bluehost's DevOps Engineer mandate.
+
+## BMC Helix DevOps Engineer — 2026-11-12
+
+ITOM SaaS delivery platform: Kubernetes with Helm charts and Docker containerization across 20+ global data centers; Terraform IaC and Ansible configuration management versioned in Git; CI/CD with Jenkins and Spinnaker automating monthly deployments and semi-annual upgrades of Victoria Metrics, OpenSearch, Redis, and Kafka across AWS, Oracle, and Google Cloud; customer instance migration, hotfixes, and change requests; observability with Prometheus/Grafana/ELK/Loki/Kibana/Fluentbit and alerting remediation; Shell/Bash (must) and Python automation, runbooks, and postmortems—mirroring BMC Helix's DevOps Engineer mandate for ITOM delivery.
+
+## Wipro DevOps Engineer (Band B2) — 2026-11-12
+
+Enterprise DevOps toolchain platform: CI/CD pipelines with Git commands across the application life cycle (planning, coding, building, testing, staging, release, configuration, monitoring); IT infrastructure management per supported software code; application on-boarding and DevOps tool configuration per client needs; user access workflows and access management per defined process; DevOps tool engineering/customization and collaboration with development staff on release scripting; automated testing & deployment; customer support/service on DevOps tools with TAT-based ticket resolution and escalation matrix; incident management, monitoring & observability with Prometheus/Dynatrace/Datadog, SLO/SLI, RCA; TSM skills: incident, change, problem management, ticketing tools—mirroring Wipro's DevOps Engineer Band B2 mandate.
+
+## Accenture Packaged Application Development Senior Analyst — 2026-11-12
+
+Microsoft Cloud (Azure) SaaS application platform: configure and support packaged/SaaS applications, adapt features, manage releases, and ensure system stability using standard tools, APIs, and low-code platforms; Microsoft Cloud Enterprise Architecture design with cloud computing principles; application support and troubleshooting methodologies; system monitoring tools and performance optimization techniques; GenAI/Agentic AI solution design with prompt engineering and AI evaluation frameworks; technical process documentation and cross-functional collaboration—mirroring Accenture's Packaged/SaaS Application Engineer mandate.
+
+## Kion DevOps Engineer — 2026-11-12
+
+Internal DevOps tools and platform engineering: administer and maintain developer tools and supporting infrastructure (Jenkins, GitHub, Jira, Confluence, SonarQube, JFrog Artifactory, Azure, Terraform, Ansible, Docker, Kubernetes, Nginx); develop and maintain CI/CD pipelines for reliable build/test/deployment workflows; operate and troubleshoot Linux-based services including networking and TLS certificates; investigate application logs, pipeline failures, and infrastructure issues with root-cause collaboration; automate recurring tasks and infrastructure configuration with scripts and automation tools; support containerized workloads on Kubernetes; analyze tool and service interfaces and dependencies for integrated solutions; evaluate new tools, validate suitability, and coordinate rollouts; plan and execute changes with testing, recovery, and documentation; Java knowledge for application behavior and troubleshooting—mirroring Kion's DevOps Engineer mandate in Pune.
+
+## Deloitte DevOps Engineer II — 2026-11-12
+
+AWS cloud engineering platform: design, build, deploy, and optimize cloud-based engineering solutions on AWS; CI/CD pipelines using CodeBuild, CodeDeploy, CodePipeline with Jenkins/GitHub Actions orchestration; IaC with Terraform, AWS CloudFormation, Ansible; AWS services (Lambda, Glue, EventBridge, EKS, S3, API Gateway, security groups); Kubernetes microservices orchestration files; YAML/JSON scripting; Agile delivery (sprint planning, retrospectives, estimation, peer reviews); observability (Dynatrace, Datadog, AppDynamics, Elastic Stack, Splunk) and SRE practices (SLIs, SLOs, error budgets)—mirroring Deloitte's DevOps Engineer II Engineering as a Service mandate.
+
+## Fiserv DevOps Engineer — 2026-11-12
+
+Multi-environment CI/CD platform: design, build, and maintain pipelines using Git, GitHub Actions, Bamboo/Jenkins, Maven/Ant, Artifactory; AWS (EKS, EC2, RDS, S3, Route53, IAM, ELB, API Gateway, CloudWatch) deployment management; CI/CD tools (Jenkins, GitLab CI, ArgoCD, Azure DevOps); Docker/Kubernetes/OpenShift with Helm package management; IaC with Terraform/Ansible; monitoring with Prometheus/Grafana/ELK; Python/Bash/PowerShell scripting; Linux/RHCE-aligned operations; security best practices; 24*7 support readiness; continuous deployment automation—mirroring Fiserv's DevOps Engineer mandate for financial services technology.
+
+## Cisco Intersight Developer — 2026-11-12
+
+Cloud-native system management platform: Go (Golang) microservices on AWS with Docker and Kubernetes, designed for scalability and availability; Object-Oriented Design and Data Structures & Algorithms fundamentals; analytics and machine learning for actionable IT operations intelligence; system-level focus with understanding of component impact; strong analytical and debugging skills; fast-moving startup-like delivery—mirroring Cisco's Intersight development mandate for Data Center Compute.
+
+## Kong Software Engineer II — 2026-11-12
+
+API Operations toolset platform: Go (Golang) CLI tools and backend services for Kong's API Management suite (Enterprise Gateway, Konnect SaaS, Managed Gateways on AWS/Azure/GCP); decK CLI-first experience for humans and automation (GitHub Actions, Jenkins); Terraform provider and Go SDK for Kong Konnect; API design, standardization, and workflows; Infrastructure-as-Code operations; scalable, available, low-latency API platform delivery on-premise and public cloud—mirroring Kong's Software Engineer II Bangalore API Operations mandate.
+
+## Zscaler Senior Software Engineer — 2026-11-12
+
+AI security platform: Go, Rust, and Python backend services and distributed systems for AI application and agent security; design secure, reliable, scalable systems with trust boundaries balancing security, privacy, performance, and usability; cloud infrastructure on AWS/GCP/Azure; operational observability, concurrency, networking, storage, APIs; AI/ML integration; mentorship through design/code reviews; lead complex investigations and production operations—mirroring Zscaler's Senior Software Engineer mandate for AI security products in Bangalore.
+
+## IDfy Module Lead - Full Stack — 2026-11-12
+
+Full-stack product platform: React frontend and Node.js/Go/Python backend services with REST/GraphQL APIs; relational databases PostgreSQL/MySQL in production systems; Docker containerization; AWS/GCP cloud services; SOLID principles and clean coding (OOP/FP); unit testing, instrumentation, and deployment; feature design and documentation; Kubernetes, Redis, RabbitMQ, and AI APIs/tooling as good-to-have—mirroring IDfy's Module Lead - Full Stack mandate for identity and verification products.
+
+## Ivanti Site Reliability Engineer — 2026-11-12
+
+SRE platform reliability: deploy, manage, and secure production SaaS on AWS and Azure; Python/Golang and Bash automation; troubleshoot Java/.NET applications, network and storage infrastructure; Linux (Debian/RHEL) and Windows; PostgreSQL/Redis/Kafka/MongoDB/Elasticsearch; HA Proxy/Apache/Nginx/IIS; New Relic/DataDog/Splunk monitoring; AWS EKS/AKS container orchestration; Ansible/Jenkins/GitHub Actions CI/CD; Terraform IaC; 24x7 follow-the-sun on-call; documentation and training—mirroring Ivanti's SRE mandate for Ivanti Neurons cloud services.
+
+## JPMorganChase Technology Support III DevOps SRE — 2026-11-10
+
+Production support and resilience platform: Terraform-provisioned AWS and on-premises Linux infrastructure with Jenkins pipelines (including shared/global libraries) building, scanning, and deploying Docker workloads to Kubernetes; GitOps-style promotion with rollback runbooks. Full-stack observability with Prometheus, Grafana, Splunk, and Open Telemetry, SLI/SLO dashboards, and anomaly-based alerting. ITIL-aligned incident/problem/change management, P1/P2 runbooks, and Python/Bash automation to eliminate toil; enterprise-authorized AI-assisted incident triage with human validation and sensitive-data handling—mirroring JPMorganChase's Technology Support III DevOps/SRE mandate.
+
+
+

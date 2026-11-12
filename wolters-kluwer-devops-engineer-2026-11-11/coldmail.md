@@ -1,0 +1,1 @@
+DevOps Engineer with 3+ years of experience in Web Application Operations, Docker, Kubernetes, Terraform (IaC), CI/CD pipelines, full-stack monitoring, availability management, and disaster recovery on AWS and Azure. Ready to strengthen Wolters Kluwer's technology operations.
